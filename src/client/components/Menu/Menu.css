@@ -1,0 +1,29 @@
+.Menu {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.Menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.Menu ul li { 
+    margin: 0 1.5rem;
+    padding: .3rem 1.1rem;
+    border-top: 2px solid rgba(75, 70, 70, 0);
+    border-bottom: 2px solid rgba(75, 70, 70, 0);
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+
+.active {    
+    border-top: 2px solid rgb(75, 70, 70);
+    border-bottom: 2px solid rgb(75, 70, 70);
+}
+
+.Menu ul li a { 
+    text-decoration: none;
+}
