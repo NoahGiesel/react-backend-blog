@@ -1,35 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
 .Article { 
     width: 80%;
     margin: 2rem  auto; 
     padding: 1.5rem 1rem;
     border-radius: 10px; 
+    transition: 200ms ease-in; 
 }
+
+.Article:hover { 
+    background-color: rgba(236, 162, 58, 0.781); 
+}
+
 
 .author{ 
     text-align: left; 
     font-style: italic;
+    margin: .5rem 0;
 
 }
 
 .informations {
     text-align: left;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid rgb(251, 151, 83);
 }
+
+.informations h2{ 
+    margin: .5rem 0;
+}
+
+
 
 .container { 
     width : 100%;
     height : 100%;
-    display: grid;
     grid-template-columns: 25% 75%;
+    display: grid;
 }
 
 .image-section img { 
-    width: 70%; 
+    width: 85%;   
 }
 
 .text-section { 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
     padding: 0 1rem;
     text-align: left;
-    background-color:rgba(248, 214, 174, 0.822);
+    background-color:rgba(246, 214, 177, 0.781);
     border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(136, 108, 73, 0.245);
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(136, 108, 73, 0.245);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(136, 108, 73, 0.245);
 }
