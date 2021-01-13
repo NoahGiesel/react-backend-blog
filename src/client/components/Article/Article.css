@@ -1,0 +1,35 @@
+.Article { 
+    width: 80%;
+    margin: 2rem  auto; 
+    padding: 1.5rem 1rem;
+    border-radius: 10px; 
+}
+
+.author{ 
+    text-align: left; 
+    font-style: italic;
+
+}
+
+.informations {
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.container { 
+    width : 100%;
+    height : 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.image-section img { 
+    width: 70%; 
+}
+
+.text-section { 
+    padding: 0 1rem;
+    text-align: left;
+    background-color:rgba(248, 214, 174, 0.822);
+    border-radius: 10px;
+}
