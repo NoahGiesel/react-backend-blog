@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from "./client/components/Header/Header"
 import Menu from "./client/components/Menu/Menu"
+import Footer from "./client/components/Footer/Footer"
 import Article from "./client/components/Article/Article"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Menu/>
       <Article/>
       <Article/>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.Footer { 
+    background-color: rgb(83, 83, 83);
+    height: 15rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .text { 
+    color: #f4f4f4;
+    margin: 0 0 ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ 

@@ -10,8 +10,12 @@
     transition: 200ms ease-in; 
 }
 
+.Article a { 
+    text-decoration: none;
+}
+
 .Article:hover { 
-    background-color: rgba(236, 162, 58, 0.781); 
+    background-color: rgba(253, 164, 105, 0.15); 
 }
 
 
