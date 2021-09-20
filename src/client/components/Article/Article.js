@@ -3,6 +3,10 @@ import "./Article.css"
 import icon from '../../../images/Twitter-icon.png';
 
 const  Article = () =>  {
+
+
+  // i can fetch data via database. /Blog can then map the articles.
+
     return (
       <div className="Article">
         <a href="#"> 
